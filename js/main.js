@@ -1,8 +1,8 @@
 //////////////////////////////////////////////////////////////////
 // [ PHONE MASK ]
 
-var maskPhone = document.querySelectorAll('.maskPhone')
-var maskDate = document.querySelectorAll('.maskDate')
+const maskPhone = document.querySelectorAll('.maskPhone')
+const maskDate = document.querySelectorAll('.maskDate')
 
 maskPhone.forEach(function (el) {
     IMask(el, {
@@ -17,3 +17,13 @@ maskDate.forEach(function (el) {
         lazy: false
     });
 });
+
+//////////////////////////////////////////////////////////////////
+// [ subscribeForm after submit show modal modalThanks ]
+
+document.getElementById("subscribeForm").addEventListener("submit", function (e) {
+    e.preventDefault();
+    const sf = new bootstrap.Modal(document.getElementById("modalThanks"));
+    sf.show()
+});
+  

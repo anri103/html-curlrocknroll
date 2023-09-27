@@ -124,7 +124,7 @@
                             </div>
                         </div>
                         <div class="d-flex justify-content-center">
-                            <a href="#modal-gifts" class="btn btn-1" data-bs-toggle="modal">
+                            <a href="#modalGifts" class="btn btn-1" data-bs-toggle="modal">
                                 <span class="btn-text">Что в боксе?</span>
                                 <span class="svg-arrow"></span>
                             </a>
@@ -137,13 +137,13 @@
         <!-- section-03 -->
         <section class="section section-03">
             <div class="container">
-                <div class="section-content">
+                <div class="position-relative">
                     <div class="background-img">
                         <svg xmlns="http://www.w3.org/2000/svg" width="831" height="822" viewBox="0 0 831 822" fill="none">
                             <path d="M647.334 0.706815C637.82 -1.1784 625.246 1.03841 616.548 6.18048C611.405 9.18947 588.678 32.7127 502.644 123.484C443.627 185.844 393.169 238.72 390.553 240.806C383.959 245.989 369.306 250.158 360.241 249.301C355.765 248.906 337.451 243.434 314.725 235.932C159.854 184.261 53.9512 149.849 49.0049 149.478C40.03 148.98 28.6878 151.933 21.1752 156.871C15.2723 160.643 13.4847 162.616 8.26019 171.355C3.9064 178.638 1.85408 183.343 1.01063 188.314C-0.476408 197.159 2.81142 211.747 7.78935 218.678C9.96432 221.651 63.3195 271.493 126.376 329.264C210.609 406.537 242.026 436.117 244.807 440.365C249.248 447.43 252.086 460.229 251.068 468.289C250.647 471.536 227.245 540.434 199.071 621.384C160.999 730.333 147.694 770.135 147.299 775.374C147.013 779.157 148.008 786.14 149.514 790.994C154.37 806.52 167.231 817.555 184.916 821.283C193.669 823.169 209.911 819.648 217.155 814.396C220.307 812.174 271.057 759.32 330.074 696.96C389.091 634.6 439.706 581.97 442.546 580.018C449.655 574.99 461.78 571.745 470.554 572.579C475.68 572.905 523.28 588.129 626.049 622.189C707.525 649.147 777.403 671.605 781.342 672.135C790.9 673.438 806.47 668.753 813.846 662.517C821.156 656.392 828.39 644.291 830.324 634.953C832.325 625.503 829.373 611.115 823.745 603.492C821.256 600.027 773.256 555.212 705.561 492.995C631.39 425.082 590.068 386.388 587.489 382.565C582.578 375.523 579.429 363.754 580.178 355.381C580.53 351.485 599.385 295.534 631.862 202.555C659.947 122.008 683.327 53.4013 683.927 50.1097C685.504 41.623 682.509 28.5782 677.261 20.5742C671.295 11.2283 658.639 2.90212 647.334 0.706815Z" fill="#2CCCD3"/>
                         </svg>
                     </div>
-                    <div class="position-relative">
+                    <div class="section-content">
                         <h2 class="section-title">Как принять участие?</h2>
                         <div class="cards-step-flex">
                             <img class="img-fluid" src="img/card-step-01.svg" alt="">
@@ -152,12 +152,12 @@
                             <img class="img-fluid" src="img/card-step-04.svg" alt="">
                             <img class="img-fluid" src="img/card-step-05.svg" alt="">
                         </div>
-                        <div class="d-flex justify-content-center">
-                            <a href="#section-05" class="btn btn-1">
-                                <span class="btn-text">Мне нужен фен Dyson!</span>
-                                <span class="svg-arrow"></span>
-                            </a>
-                        </div>
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <a href="#section-05" class="btn btn-1">
+                            <span class="btn-text">Мне нужен фен Dyson!</span>
+                            <span class="svg-arrow"></span>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -207,29 +207,29 @@
                                     </svg>                                        
                                 </div>
                                 <div>
-                                    <a href="#modal-dates" data-bs-toggle="modal">Периоды и даты подведения<br> итогов акции</a>
+                                    <a href="#modalDates" data-bs-toggle="modal">Периоды и даты подведения<br> итогов акции</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-5 col-xl-5">
                         <div class="section-form">
-                            <form class="position-relative" action="#" method="post">
+                            <form class="position-relative" id="subscribeForm" action="#" method="post">
                                 <div class="form-group mb-3">
-                                    <input type="text" class="form-control" id="InputName" placeholder="Ваше Имя">
+                                    <input type="text" class="form-control" id="subscribeName" placeholder="Ваше Имя">
                                 </div>
                                 <div class="form-group mb-3">
-                                    <input type="text" class="form-control" id="InputLastName" placeholder="Ваша Фамилия">
+                                    <input type="text" class="form-control" id="subscribeLastName" placeholder="Ваша Фамилия">
                                 </div>
                                 <div class="form-group mb-3">
-                                    <input type="email" class="form-control" id="InputEmail" placeholder="Ваш e-mail">
+                                    <input type="email" class="form-control" id="subscribeEmail" placeholder="Ваш e-mail">
                                 </div>
                                 <div class="form-group mb-3">
-                                    <input type="text" class="form-control maskPhone" id="InputTel" placeholder="Ваш телефон">
+                                    <input type="text" class="form-control maskPhone" id="subscribePhone" placeholder="Ваш телефон">
                                 </div>
                                 <div class="form-group mb-3">
-                                    <label class="form-label" for="marketplace-select">Каким маркетплейсом чаще всего пользуетесь?</label>
-                                    <select class="form-select" id="marketplace-select">
+                                    <label class="form-label" for="marketplaceSelect">Каким маркетплейсом чаще всего пользуетесь?</label>
+                                    <select class="form-select" id="marketplaceSelect">
                                         <option value="">Выберите маркетплейс</option>
                                         <option value="Wildberries">Wildberries</option>
                                         <option value="Ozon">Ozon</option>
@@ -237,20 +237,18 @@
                                     </select>
                                 </div>
                                 <div class="form-group mb-3">
-                                    <input type="text" class="form-control" id="InputInstagram" placeholder="Ваш Инстаграм">
+                                    <input type="text" class="form-control" id="subscribeInstagram" placeholder="Ваш Инстаграм">
                                 </div>
                                 <div class="form-check">
-                                    <input type="checkbox" class="form-check-input" id="exampleCheck1" onchange="document.getElementById('formSubmit').disabled = !this.checked;">
-                                    <label class="form-check-label" for="exampleCheck1">Даю свое <a href="https://disk.yandex.ru/i/DW9dE9V1xxdukQ" target="_blank">согласие на обработку персональных данных</a></label>
+                                    <input type="checkbox" class="form-check-input" id="checkPolicy" onchange="document.getElementById('subscribeSubmit').disabled = !this.checked;">
+                                    <label class="form-check-label" for="checkPolicy">Даю свое <a href="https://disk.yandex.ru/i/DW9dE9V1xxdukQ" target="_blank">согласие на обработку персональных данных</a></label>
                                 </div>
                                 <div class="form-check">
-                                    <input type="checkbox" class="form-check-input" id="exampleCheck2">
-                                    <label class="form-check-label" for="exampleCheck2">Даю свое согласие на рассылку рекламных и информационных материалов</label>
+                                    <input type="checkbox" class="form-check-input" id="checkNewsletter">
+                                    <label class="form-check-label" for="checkNewsletter">Даю свое согласие на рассылку рекламных и информационных материалов</label>
                                 </div>
                                 <div class="form-group mt-4">
-                                    <!-- Для программиста! -->
-                                    <!-- У кнопки type="button" ТОЛЬКО ДЛЯ ДЕМОНСТРАЦИИ модального окна -->
-                                    <button type="button" class="btn btn-2" id="formSubmit" data-bs-toggle="modal" data-bs-target="#modal-thanks" disabled>
+                                    <button type="submit" class="btn btn-2" id="subscribeSubmit" disabled>
                                         <span class="btn-text">Отправить</span>
                                         <span class="svg-arrow"></span>
                                     </button>
@@ -266,7 +264,7 @@
         <section class="section section-06">
             <div class="container">
                 <h2 class="section-title"><span>Пошопимся?</span></h2>
-                <div class="row gy-4 row-cols-1 row-cols-md-3 row-cols-lg-3">
+                <div class="row gy-2 gy-lg-4 row-cols-1 row-cols-md-3 row-cols-lg-3">
                     <div class="col text-center">
                         <a href="https://www.ozon.ru/brand/curl-rock-and-roll-87171782/" class="hover-opacity" target="_blank">
                             <img class="img-fluid" src="img/section-05-ozon.svg" alt="">
@@ -414,7 +412,7 @@
     </footer>
 
     <!-- Modal 1 -->
-    <div class="modal fade modal-gifts" id="modal-gifts" tabindex="-1" aria-hidden="true">
+    <div class="modal fade modal-gifts" id="modalGifts" tabindex="-1" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -488,7 +486,7 @@
     </div>
 
     <!-- Modal 2 -->
-    <div class="modal fade modal-dates" id="modal-dates" tabindex="-1" aria-hidden="true">
+    <div class="modal fade modal-dates" id="modalDates" tabindex="-1" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -503,16 +501,16 @@
                     <div class="modal-text">
                         <ol>
                             <li>
-                                <p><strong>Регистрация отзывов</strong> 2.10.2023-31.10.2023<br>
-                                <strong>Подведение итогов</strong> 10.11.2023</p>
+                                <p><b>Регистрация отзывов</b> 2.10.2023-31.10.2023<br>
+                                <b>Подведение итогов</b> 10.11.2023</p>
                             </li>
                             <li>
-                                <p><strong>Регистрация отзывов</strong> 1.11.2023-30.11.2023<br>
-                                <strong>Подведение итогов</strong> 10.12.2023</p>
+                                <p><b>Регистрация отзывов</b> 1.11.2023-30.11.2023<br>
+                                <b>Подведение итогов</b> 10.12.2023</p>
                             </li>
                             <li>
-                                <p><strong>Регистрация отзывов</strong> 1.12.2023-31.12.2023<br>
-                                <strong>Подведение итогов</strong> 15.01.2024</p>
+                                <p><b>Регистрация отзывов</b> 1.12.2023-31.12.2023<br>
+                                <b>Подведение итогов</b> 15.01.2024</p>
                             </li>
                         </ol>
                     </div>
@@ -522,7 +520,7 @@
     </div>
 
     <!-- Modal 3 -->
-    <div class="modal fade modal-thanks" id="modal-thanks" tabindex="-1" aria-hidden="true">
+    <div class="modal fade modal-thanks" id="modalThanks" tabindex="-1" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
