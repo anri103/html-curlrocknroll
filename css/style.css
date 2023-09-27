@@ -1074,6 +1074,13 @@ main {
     .section-04 .background-img {
         position: absolute;
         bottom: -60px;
+        right: -360px;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .section-04 .background-img {
         right: -260px;
     }
 }
