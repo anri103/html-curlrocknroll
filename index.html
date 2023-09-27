@@ -63,7 +63,10 @@
                             </div>
                         </div>
                         <div>
-                            <a href="#section-05" class="btn btn-1">Участвую! <span class="svg-arrow"></span></a>
+                            <a href="#section-05" class="btn btn-1">
+                                <span class="btn-text">Участвую!</span>
+                                <span class="svg-arrow"></span>
+                            </a>
                         </div>
                     </div>
                     <div class="background-img">
@@ -121,7 +124,10 @@
                             </div>
                         </div>
                         <div class="d-flex justify-content-center">
-                            <a href="#modal-1" class="btn btn-1" data-bs-toggle="modal">Что в боксе? <span class="svg-arrow"></span></a>
+                            <a href="#modal-gifts" class="btn btn-1" data-bs-toggle="modal">
+                                <span class="btn-text">Что в боксе?</span>
+                                <span class="svg-arrow"></span>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -147,7 +153,10 @@
                             <img class="img-fluid" src="img/card-step-05.svg" alt="">
                         </div>
                         <div class="d-flex justify-content-center">
-                            <a href="#section-05" class="btn btn-1">Мне нужен фен Dyson! <span class="svg-arrow"></span></a>
+                            <a href="#section-05" class="btn btn-1">
+                                <span class="btn-text">Мне нужен фен Dyson!</span>
+                                <span class="svg-arrow"></span>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -171,7 +180,10 @@
                                 <li>Отзыв не должен быть удален до окончания акции.</li>
                             </ul>
                         </div>
-                        <a href="#section-05" class="btn btn-1 mt-40">Хочу участвовать! <span class="svg-arrow"></span></a>
+                        <a href="#section-05" class="btn btn-1 mt-40">
+                            <span class="btn-text">Хочу участвовать!</span>
+                            <span class="svg-arrow"></span>
+                        </a>
                     </div>
                     <div class="background-img">
                         <img class="img-fluid" src="img/bg-section-04.png" alt="">
@@ -185,9 +197,9 @@
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-7 col-xl-6">
-                        <div class="section-05__wrap">
+                        <div class="section-content">
                             <h2 class="section-title">Больше отзывов – больше шансов выиграть!</h2>
-                            <div class="section-05__text">
+                            <div class="section-text">
                                 <div class="flex-shrink-0">
                                     <svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M18.203 10V14.28L17.983 19.08H15.023L14.803 14.28V10H18.203ZM15.023 20.9C15.423 20.5267 15.9163 20.34 16.503 20.34C17.0896 20.34 17.5763 20.5267 17.963 20.9C18.363 21.26 18.563 21.7267 18.563 22.3C18.563 22.8733 18.363 23.3467 17.963 23.72C17.5763 24.08 17.0896 24.26 16.503 24.26C15.9163 24.26 15.423 24.08 15.023 23.72C14.6363 23.3467 14.443 22.8733 14.443 22.3C14.443 21.7267 14.6363 21.26 15.023 20.9Z" fill="#685BC7"/>
@@ -195,13 +207,13 @@
                                     </svg>                                        
                                 </div>
                                 <div>
-                                    <a href="#modal-2" data-bs-toggle="modal">Периоды и даты подведения<br> итогов акции</a>
+                                    <a href="#modal-dates" data-bs-toggle="modal">Периоды и даты подведения<br> итогов акции</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-5 col-xl-5">
-                        <div class="section-05__form">
+                        <div class="section-form">
                             <form class="position-relative" action="#" method="post">
                                 <div class="form-group mb-3">
                                     <input type="text" class="form-control" id="InputName" placeholder="Ваши ФИО">
@@ -212,16 +224,30 @@
                                 <div class="form-group mb-3">
                                     <input type="text" class="form-control maskPhone" id="InputTel" placeholder="Ваш телефон">
                                 </div>
+                                <div class="form-group mb-3">
+                                    <label class="form-label" for="marketplace-select">Каким маркетплейсом чаще всего пользуетесь?</label>
+                                    <select class="form-select" id="marketplace-select">
+                                        <option value="Wildberries">Wildberries</option>
+                                        <option value="Ozon">Ozon</option>
+                                        <option value="Яндекс.Маркет">Яндекс.Маркет</option>
+                                    </select>
+                                </div>
+                                <div class="form-group mb-3">
+                                    <input type="text" class="form-control" id="InputInstagram" placeholder="Ваш Инстаграм">
+                                </div>
                                 <div class="form-check">
                                     <input type="checkbox" class="form-check-input" id="exampleCheck1" onchange="document.getElementById('formSubmit').disabled = !this.checked;">
-                                    <label class="form-check-label" for="exampleCheck1">Даю свое <a href="https://disk.yandex.ru/i/Yq0-KHfmSsI-Cg" target="_blank">согласие на обработку персональных данных</a></label>
+                                    <label class="form-check-label" for="exampleCheck1">Даю свое <a href="https://disk.yandex.ru/i/DW9dE9V1xxdukQ" target="_blank">согласие на обработку персональных данных</a></label>
                                 </div>
                                 <div class="form-check">
                                     <input type="checkbox" class="form-check-input" id="exampleCheck2">
                                     <label class="form-check-label" for="exampleCheck2">Даю свое согласие на рассылку рекламных и информационных материалов</label>
                                 </div>
-                                <div class="form-group mt-40">
-                                    <button type="submit" class="btn btn-2" id="formSubmit" disabled>Отправить <span class="svg-arrow"></span></button>
+                                <div class="form-group mt-4">
+                                    <button type="submit" class="btn btn-2" id="formSubmit" disabled>
+                                        <span class="btn-text">Отправить</span>
+                                        <span class="svg-arrow"></span>
+                                    </button>
                                 </div>
                             </form>
                         </div>
@@ -259,55 +285,60 @@
             <div class="container">
                 <h2 class="section-title">ЧАСТО ЗАДАВАЕМЫЕ ВОПРОСЫ</h2>
                 <div class="accordion" id="accordionExample">
+
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingOne">
                             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                Как получить код?
+                                <span class="btn-text">Как получить код?</span>
                             </button>
                         </h2>
                         <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                                Чтобы получить код, необходимо зарегистрироваться в форме <a href="#section-05">выше</a>.
+                                <p>Чтобы получить код, необходимо зарегистрироваться в форме <a href="#section-05">выше</a>.</p>
                             </div>
                         </div>
                     </div>
+
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingTwo">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                Могу ли я опубликовать несколько отзывов, чтобы повысить свои шансы?
+                                <span class="btn-text">Могу ли я опубликовать несколько отзывов, чтобы повысить свои шансы?</span>
                             </button>
                         </h2>
                         <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                                Да, один отзыв может быть на один купленный товар, но их можно покупать сколько угодно и на каждый оставлять отзывы.
+                                <p>Да, один отзыв может быть на один купленный товар, но их можно покупать сколько угодно и на каждый оставлять отзывы.</p>
                             </div>
                         </div>
                     </div>
+
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingThree">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                Где я могу узнать о результатах конкурса?
+                                <span class="btn-text">Где я могу узнать о результатах конкурса?</span>
                             </button>
                         </h2>
                         <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
                             data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                                Результаты конкурса и видео с розыгрышем будут публиковаться в <a href="https://vk.com/curlrocknroll" target="_blank">VK Curl Rock And Roll</a>.
+                                <p>Результаты конкурса и видео с розыгрышем будут публиковаться в <a href="https://vk.com/curlrocknroll" target="_blank">VK Curl Rock And Roll</a>.</p>
                             </div>
                         </div>
                     </div>
+
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingFour">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                Может ли один отзыв участвовать в разные месяцы?
+                                <span class="btn-text">Может ли один отзыв участвовать в разные месяцы?</span>
                             </button>
                         </h2>
                         <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                                Нет, в акции принимают участие только отзывы за текущий месяц.
+                                <p>Нет, в акции принимают участие только отзывы за текущий месяц.</p>
                             </div>
                         </div>
                     </div>
+
                 </div>
             </div>
         </section>
@@ -377,62 +408,65 @@
     </footer>
 
     <!-- Modal 1 -->
-    <div class="modal fade" id="modal-1" tabindex="-1" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal fade modal-gifts" id="modal-gifts" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 <div class="modal-body">
-                    <div class="py-2 mb-2">
-                        <div class="modal-headline bg-color-1">
-                            <h3 class="color-white">Набор косметики Curl Rock And Roll</h3>
-                        </div>
+                    <div class="modal-headline">
+                        <h3 class="modal-title">
+                            <span>Набор косметики</span>
+                            <br>
+                            <span>Curl Rock And Roll</span>
+                        </h3>
                     </div>
-                    <p class="modal-text fw-bold">Бокс с беспроигрышной комбинацией средств для кудрявых. В этом наборе есть всё необходимое для комплексного ухода и стайлинга кудрявых волос.</p>
-                    <p class="modal-text">Все средства прекрасно сочетаются между собой и любая попытка уложить волосы с этими банками в 99% случаев увенчается успехом.</p>
-                    <div class="row">
-                        <div class="col-6 col-lg-4">
-                            <div class="d-flex p-2">
+                    <div class="modal-text">
+                        <p><b>Бокс с беспроигрышной комбинацией средств для кудрявых. В этом наборе есть всё необходимое для комплексного ухода и стайлинга кудрявых волос.</b></p>
+                        <p>Все средства прекрасно сочетаются между собой и любая попытка уложить волосы с этими банками в 99% случаев увенчается успехом.</p>
+                    </div>
+                    <div class="row gy-4 row-cols-1 row-cols-md-2 row-cols-lg-2">
+                        <div class="col">
+                            <div class="card card-modal-gift">
                                 <div class="flex-0 me-3">
                                     <img src="img/modal-01-01.png" alt="">
                                 </div>
                                 <span class="modal-item-text pt-3"><strong>Шампунь Мягкое очищение с пеной</strong> не содержит сульфатов, но отлично пенится. Поможет бережно очистить кожу головы.</span>
                             </div>
                         </div>
-                        <div class="col-6 col-lg-4">
-                            <div class="d-flex p-2">
+                        <div class="col">
+                            <div class="card card-modal-gift">
                                 <div class="flex-0 me-3">
                                     <img src="img/modal-01-02.png" alt="">
                                 </div>
                                 <span class="modal-item-text pt-3"><strong>Кондиционер Мягкое распутывание</strong> нежно распутает ваши локоны</span>
                             </div>
                         </div>
-                        <div class="col-6 col-lg-4 border-end-0">
-                            <div class="d-flex p-2">
+                        <div class="col border-end-0">
+                            <div class="card card-modal-gift">
                                 <div class="flex-0 me-3">
                                     <img src="img/modal-01-03.png" alt="">
                                 </div>
                                 <span class="modal-item-text pt-3"><strong>Пенка средней фиксации</strong> придаст объёма и воздушности укладке</span>
                             </div>
                         </div>
-
-                        <div class="col-6 col-lg-4">
-                            <div class="d-flex flex-column align-items-start p-2">
+                        <div class="col">
+                            <div class="card card-modal-gift">
                                 <div class="flex-0">
                                     <img src="img/modal-01-04.png" alt="">
                                 </div>
                                 <span class="modal-item-text pt-3"><strong>Крем-маска для кудрявых волос</strong> дополнит уход</span>
                             </div>
                         </div>
-                        <div class="col-6 col-lg-4">
-                            <div class="d-flex flex-column align-items-start p-2">
+                        <div class="col">
+                            <div class="card card-modal-gift">
                                 <div class="flex-0">
                                     <img src="img/modal-01-05.png" alt="">
                                 </div>
                                 <span class="modal-item-text pt-3"><strong>Гель лёгкой фиксации</strong> поможет создать эластичную укладку без ощущения липкости</span>
                             </div>
                         </div>
-                        <div class="col-6 col-lg-4">
-                            <div class="d-flex flex-column align-items-start p-2">
+                        <div class="col">
+                            <div class="card card-modal-gift">
                                 <div class="flex-0">
                                     <img src="img/modal-01-06.png" alt="">
                                 </div>
@@ -447,38 +481,34 @@
     </div>
 
     <!-- Modal 2 -->
-    <div class="modal fade" id="modal-2" tabindex="-1" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-md">
+    <div class="modal fade modal-dates" id="modal-dates" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 <div class="modal-body">
-                    <div class="py-2 mb-3">
-                        <div class="modal-headline bg-color-4">
-                            <h3 class="color-black">Периоды и даты<br> подведения итогов акции</h3>
-                        </div>
+                    <div class="modal-headline">
+                        <h3 class="modal-title">
+                            <span>Периоды и даты</span>
+                            <br>
+                            <span>подведения итогов акции</span>
+                        </h3>
                     </div>
-                    <ol class="modal-list modal-text">
-                        <li>
-                            <p><strong>Регистрация отзывов</strong> 5.09.2022-30.09.2022<br>
-                            <strong>Подведение итогов</strong> 09.10.2022<br>
-                            <strong>Публикация в соцсетях</strong> 15.10.2022</p>
-                        </li>
-                        <li>
-                            <p><strong>Регистрация отзывов</strong> 1.10.2022-31.10.2022<br>
-                            <strong>Подведение итогов</strong> 10.11.2022<br>
-                            <strong>Публикация в соцсетях</strong> 14.11.2022</p>
-                        </li>
-                        <li>
-                            <p><strong>Регистрация отзывов</strong> 1.11.2022-30.11.2022<br>
-                            <strong>Подведение итогов</strong> 10.12.2022<br>
-                            <strong>Публикация в соцсетях</strong> 15.12.2022</p>
-                        </li>
-                        <li>
-                            <p><strong>Регистрация отзывов</strong> 1.12.2022-31.12.2022<br>
-                            <strong>Подведение итогов</strong> 11.01.2023<br>
-                            <strong>Публикация в соцсетях</strong> 16.01.2023</p>
-                        </li>
-                    </ol>
+                    <div class="modal-text">
+                        <ol>
+                            <li>
+                                <p><strong>Регистрация отзывов</strong> 2.10.2023-31.10.2023<br>
+                                <strong>Подведение итогов</strong> 10.11.2023</p>
+                            </li>
+                            <li>
+                                <p><strong>Регистрация отзывов</strong> 1.11.2023-30.11.2023<br>
+                                <strong>Подведение итогов</strong> 10.12.2023</p>
+                            </li>
+                            <li>
+                                <p><strong>Регистрация отзывов</strong> 1.12.2023-31.12.2023<br>
+                                <strong>Подведение итогов</strong> 15.01.2024</p>
+                            </li>
+                        </ol>
+                    </div>
                 </div>
             </div>
         </div>
