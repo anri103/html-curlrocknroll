@@ -216,7 +216,10 @@
                         <div class="section-form">
                             <form class="position-relative" action="#" method="post">
                                 <div class="form-group mb-3">
-                                    <input type="text" class="form-control" id="InputName" placeholder="Ваши ФИО">
+                                    <input type="text" class="form-control" id="InputName" placeholder="Ваше Имя">
+                                </div>
+                                <div class="form-group mb-3">
+                                    <input type="text" class="form-control" id="InputLastName" placeholder="Ваша Фамилия">
                                 </div>
                                 <div class="form-group mb-3">
                                     <input type="email" class="form-control" id="InputEmail" placeholder="Ваш e-mail">
@@ -227,6 +230,7 @@
                                 <div class="form-group mb-3">
                                     <label class="form-label" for="marketplace-select">Каким маркетплейсом чаще всего пользуетесь?</label>
                                     <select class="form-select" id="marketplace-select">
+                                        <option value="">Выберите маркетплейс</option>
                                         <option value="Wildberries">Wildberries</option>
                                         <option value="Ozon">Ozon</option>
                                         <option value="Яндекс.Маркет">Яндекс.Маркет</option>
@@ -424,54 +428,55 @@
                         <p><b>Бокс с беспроигрышной комбинацией средств для кудрявых. В этом наборе есть всё необходимое для комплексного ухода и стайлинга кудрявых волос.</b></p>
                         <p>Все средства прекрасно сочетаются между собой и любая попытка уложить волосы с этими банками в 99% случаев увенчается успехом.</p>
                     </div>
-                    <div class="row gy-4 row-cols-1 row-cols-md-2 row-cols-lg-2">
-                        <div class="col">
-                            <div class="card card-modal-gift">
-                                <div class="flex-0 me-3">
-                                    <img src="img/modal-01-01.png" alt="">
+                    <div class="cards-grid">
+                        <div class="card card-modal-gift">
+                            <img class="card-image" src="img/card-modal-gift-01.png" alt="">
+                            <div class="card-body">
+                                <div class="card-text">
+                                    <p><b>Шампунь «Упругие локоны»</b> бережно очистит волосы и кожу головы</p>
                                 </div>
-                                <span class="modal-item-text pt-3"><strong>Шампунь Мягкое очищение с пеной</strong> не содержит сульфатов, но отлично пенится. Поможет бережно очистить кожу головы.</span>
                             </div>
                         </div>
-                        <div class="col">
-                            <div class="card card-modal-gift">
-                                <div class="flex-0 me-3">
-                                    <img src="img/modal-01-02.png" alt="">
+                        <div class="card card-modal-gift">
+                            <img class="card-image" src="img/card-modal-gift-02.png" alt="">
+                            <div class="card-body">
+                                <div class="card-text">
+                                    <p><b>Кондиционер «Упругие локоны»</b> нежно распутает завитки</p>
                                 </div>
-                                <span class="modal-item-text pt-3"><strong>Кондиционер Мягкое распутывание</strong> нежно распутает ваши локоны</span>
                             </div>
                         </div>
-                        <div class="col border-end-0">
-                            <div class="card card-modal-gift">
-                                <div class="flex-0 me-3">
-                                    <img src="img/modal-01-03.png" alt="">
+
+                        <div class="card card-modal-gift">
+                            <img class="card-image" src="img/card-modal-gift-03.png" alt="">
+                            <div class="card-body">
+                                <div class="card-text">
+                                    <p><b>Восстанавливающая крем-маска Мята и Лимон</b><br> глубоко увлажнит завитки</p>
                                 </div>
-                                <span class="modal-item-text pt-3"><strong>Пенка средней фиксации</strong> придаст объёма и воздушности укладке</span>
                             </div>
                         </div>
-                        <div class="col">
-                            <div class="card card-modal-gift">
-                                <div class="flex-0">
-                                    <img src="img/modal-01-04.png" alt="">
+                        <div class="card card-modal-gift">
+                            <img class="card-image" src="img/card-modal-gift-04.png" alt="">
+                            <div class="card-body">
+                                <div class="card-text">
+                                    <p><b>Пенка средней фиксации</b> придаст дополнительный объём укладке</p>
                                 </div>
-                                <span class="modal-item-text pt-3"><strong>Крем-маска для кудрявых волос</strong> дополнит уход</span>
                             </div>
                         </div>
-                        <div class="col">
-                            <div class="card card-modal-gift">
-                                <div class="flex-0">
-                                    <img src="img/modal-01-05.png" alt="">
+
+                        <div class="card card-modal-gift">
+                            <img class="card-image" src="img/card-modal-gift-05.png" alt="">
+                            <div class="card-body">
+                                <div class="card-text">
+                                    <p><b>Зажимы для прикорневого объёма</b> добавят воздушности причёске</p>
                                 </div>
-                                <span class="modal-item-text pt-3"><strong>Гель лёгкой фиксации</strong> поможет создать эластичную укладку без ощущения липкости</span>
                             </div>
                         </div>
-                        <div class="col">
-                            <div class="card card-modal-gift">
-                                <div class="flex-0">
-                                    <img src="img/modal-01-06.png" alt="">
+                        <div class="card card-modal-gift">
+                            <img class="card-image" src="img/card-modal-gift-06.png" alt="">
+                            <div class="card-body">
+                                <div class="card-text">
+                                    <p><b>А также:</b> стикерпак «Что-то на кудрявом» и открытка, которую можно лично подписать</p>
                                 </div>
-                                <span class="modal-item-text pt-3"><strong>Капюшон для плоппинга 2 в 1</strong><br> не только оставит в волосах нужное количество влаги, но и поможет сформировать завитки.
-                                </span>
                             </div>
                         </div>
                     </div>

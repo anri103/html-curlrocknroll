@@ -172,9 +172,18 @@ textarea {
     border-radius: 10px;
 }
 
+.form-control:focus,
+.form-select:focus {
+    box-shadow: none;
+}
+
 .form-control::placeholder {
     color: #000;
     opacity: .2;
+}
+
+.form-label {
+    font-size: 12px;
 }
 
 .form-check-label {
@@ -490,7 +499,7 @@ textarea {
 }
 
 .modal-headline {
-    margin-right: 55px;
+    margin-right: 40px;
     transform: rotate(-1deg);
     margin-bottom: 24px;
 }
@@ -512,10 +521,6 @@ textarea {
     margin-bottom: 0;
 }
 
-.modal-item-text {
-    font-size: 10px;
-}
-
 @media (min-width: 992px) {
 
     .modal .btn-close {
@@ -525,6 +530,10 @@ textarea {
 
     .modal-body {
         padding: 24px 36px;
+    }
+
+    .modal-headline {
+        margin-right: 55px;
     }
 
     .modal-title {
@@ -549,12 +558,88 @@ textarea {
     background: #685BC7;
 }
 
-.card-modal-gift {}
+.modal-gifts .cards-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 24px;
+}
+
+.card-modal-gift {
+    --bs-card-spacer-y: 20px;
+    --bs-card-spacer-x: 20px;
+    --bs-card-border-color: #D8D8D8;
+    --bs-card-border-radius: 22px;
+    position: relative;
+    height: 248px;
+}
+
+.card-modal-gift .card-text {
+    font-family: 'Stolzl', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 146%;
+    letter-spacing: -0.18px;
+}
+
+.card-modal-gift .card-text p:last-child {
+    margin-bottom: 0;
+}
+
+.card-modal-gift .card-image {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.card-modal-gift:nth-child(1) .card-text,
+.card-modal-gift:nth-child(2) .card-text,
+.card-modal-gift:nth-child(4) .card-text {
+    max-width: 196px;
+}
+
+.card-modal-gift:nth-child(1) .card-image,
+.card-modal-gift:nth-child(2) .card-image,
+.card-modal-gift:nth-child(4) .card-image {
+    right: 38px;
+    bottom: 20px;
+}
+
+.card-modal-gift:nth-child(3) .card-text {
+    max-width: 272px;
+}
+
+.card-modal-gift:nth-child(3) .card-image {
+    right: 54px;
+    bottom: 15px;
+}
+
+.card-modal-gift:nth-child(5) .card-text {
+    max-width: 232px;
+}
+
+.card-modal-gift:nth-child(5) .card-image {
+    right: 0;
+    bottom: 0;
+}
+
+.card-modal-gift:nth-child(6) .card-text {
+    max-width: 289px;
+}
+
+.card-modal-gift:nth-child(6) .card-image {
+    right: 0;
+    bottom: 0;
+}
 
 @media (min-width: 992px) {
 
     .modal-gifts .modal-dialog {
         max-width: 730px;
+    }
+
+    .modal-gifts .cards-grid {
+        grid-template-columns: 1fr 1fr;
     }
 }
 
