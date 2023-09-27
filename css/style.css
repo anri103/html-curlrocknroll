@@ -476,6 +476,11 @@ textarea {
 
 /* --------------------- Modals --------------------- */
 
+.modal-dialog {
+    max-width: 320px;
+    margin: 0 auto;
+}
+
 .modal-content {
     border-radius: 30px;
     border: none;
@@ -483,8 +488,8 @@ textarea {
 
 .modal .btn-close {
     position: absolute;
-    top: 18px;
-    right: 14px;
+    top: 13px;
+    right: 7px;
     width: 26px;
     height: 26px;
     border-radius: 50%;
@@ -499,7 +504,7 @@ textarea {
 }
 
 .modal-headline {
-    margin-right: 40px;
+    margin-right: 0;
     transform: rotate(-1deg);
     margin-bottom: 24px;
 }
@@ -514,16 +519,29 @@ textarea {
 
 .modal-text {
     font-size: 14px;
-    margin-bottom: 28px;
 }
 
-.modal-text p:last-child {
+.modal-text p:last-child,
+.modal-text ul:last-child,
+.modal-text ol:last-child {
+    margin-bottom: 0;
+}
+
+.modal-text ul li,
+.modal-text ol li {
+    margin-bottom: 8px;
+}
+
+.modal-text ul li:last-child,
+.modal-text ol li:last-child {
     margin-bottom: 0;
 }
 
 @media (min-width: 992px) {
 
     .modal .btn-close {
+        top: 18px;
+        right: 18px;
         width: 48px;
         height: 48px;
     }
@@ -562,6 +580,7 @@ textarea {
     display: grid;
     grid-template-columns: 1fr;
     gap: 24px;
+    margin-top: 28px;
 }
 
 .card-modal-gift {
@@ -570,12 +589,12 @@ textarea {
     --bs-card-border-color: #D8D8D8;
     --bs-card-border-radius: 22px;
     position: relative;
-    height: 248px;
+    height: 245px;
 }
 
 .card-modal-gift .card-text {
     font-family: 'Stolzl', sans-serif;
-    font-size: 18px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: 146%;
@@ -595,14 +614,14 @@ textarea {
 .card-modal-gift:nth-child(1) .card-text,
 .card-modal-gift:nth-child(2) .card-text,
 .card-modal-gift:nth-child(4) .card-text {
-    max-width: 196px;
+    max-width: 185px;
 }
 
 .card-modal-gift:nth-child(1) .card-image,
 .card-modal-gift:nth-child(2) .card-image,
 .card-modal-gift:nth-child(4) .card-image {
-    right: 38px;
-    bottom: 20px;
+    right: 10px;
+    bottom: 10px;
 }
 
 .card-modal-gift:nth-child(3) .card-text {
@@ -610,8 +629,8 @@ textarea {
 }
 
 .card-modal-gift:nth-child(3) .card-image {
-    right: 54px;
-    bottom: 15px;
+    right: 15px;
+    bottom: 10px;
 }
 
 .card-modal-gift:nth-child(5) .card-text {
@@ -641,6 +660,32 @@ textarea {
     .modal-gifts .cards-grid {
         grid-template-columns: 1fr 1fr;
     }
+
+    .card-modal-gift {
+        height: 248px;
+    }
+
+    .card-modal-gift .card-text {
+        font-size: 18px;
+    }
+
+    .card-modal-gift:nth-child(1) .card-text,
+    .card-modal-gift:nth-child(2) .card-text,
+    .card-modal-gift:nth-child(4) .card-text {
+        max-width: 196px;
+    }
+
+    .card-modal-gift:nth-child(1) .card-image,
+    .card-modal-gift:nth-child(2) .card-image,
+    .card-modal-gift:nth-child(4) .card-image {
+        right: 38px;
+        bottom: 20px;
+    }
+
+    .card-modal-gift:nth-child(3) .card-image {
+        right: 54px;
+        bottom: 15px;
+    }
 }
 
 /* --------------------- modal-dates --------------------- */
@@ -651,7 +696,7 @@ textarea {
     width: 93px;
     height: 93px;
     position: absolute;
-    bottom: 60%;
+    bottom: 45%;
     right: -30px;
     background-image: url(../img/bg-modal-02.svg);
     background-position: center;
@@ -668,15 +713,23 @@ textarea {
 @media (min-width: 992px) {
 
     .modal-dates .modal-body::after {
-        width: 279px;
-        height: 279px;
-        bottom: 45px;
-        right: -100px;
+        width: 173px;
+        height: 173px;
+        bottom: 7px;
+        right: -40px;
     }
 
     .modal-dates .modal-dialog {
         max-width: 600px;
     }
+}
+
+/* --------------------- modal-thanks --------------------- */
+
+.modal-thanks .modal-title span {
+    padding: 10px;
+    border-radius: 5px;
+    background: #C6F45C;
 }
 
 /* --------------------- SECTIONS --------------------- */
