@@ -1070,6 +1070,7 @@ main {
 }
 
 .section-03 .cards-step-flex > * {
+    display: block;
     max-width: 303px;
     width: 100%;
     flex: 1 1 auto;
