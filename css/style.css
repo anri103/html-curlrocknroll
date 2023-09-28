@@ -1176,11 +1176,11 @@ main {
 }
 
 .section-05 .section-title {
+    max-width: 300px;
     margin-bottom: 20px;
 }
 
 .section-05 .section-text {
-    max-width: 195px;
     display: flex;
     gap: 13px;
     font-family: 'Stolzl', sans-serif;
@@ -1193,7 +1193,7 @@ main {
     padding: 20px;
     border-radius: 10px;
     background-color: var(--color-2);
-    margin-top: 140px;
+    margin-top: 16px;
 }
 
 .section-05 .section-form .form-check {
@@ -1214,23 +1214,6 @@ main {
     background-size: contain;
 }
 
-.section-05 .section-form::after {
-    content: '';
-    display: block;
-    width: 503px;
-    height: 473px;
-    position: absolute;
-    top: -300px;
-    right: -240px;
-    bottom: auto;
-    left: auto;
-    background-image: url(../img/section-05-form-after.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    z-index: -1;
-}
-
 @media (min-width: 992px) {
 
     .section-05 {
@@ -1238,6 +1221,7 @@ main {
     }
 
     .section-05 .section-title {
+        max-width: 485px;
         margin-bottom: 30px;
     }
 
@@ -1263,10 +1247,20 @@ main {
     }
 
     .section-05 .section-form::after {
+        content: '';
+        position: absolute;
         top: auto;
         right: auto;
         bottom: -50px;
         left: -350px;
+        display: block;
+        width: 503px;
+        height: 473px;
+        background-image: url(../img/section-05-form-after.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        z-index: -1;
     }
 }
 
@@ -1350,7 +1344,7 @@ main {
 }
 
 .section-07 .accordion-item {
-    margin-bottom: 25px;
+    margin-bottom: 7px;
     border-radius: 10px;
     border: 1px solid #000000;
     background-color: #FBFBFB;
