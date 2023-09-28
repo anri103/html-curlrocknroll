@@ -1049,7 +1049,6 @@ main {
 
 .section-03 .section-content {
     position: relative;
-    padding: 0 20px;
 }
 
 .section-03 .background-img {
@@ -1064,12 +1063,13 @@ main {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 9px 15px;
+    gap: 9px 13px;
     justify-content: center;
     margin-bottom: 44px;
 }
 
 .section-03 .cards-step-flex > * {
+    max-width: 100%;
     flex: 1 1 auto;
 }
 
@@ -1079,12 +1079,12 @@ main {
         padding: 40px 0 70px;
     }
 
-    .section-03 .section-title {
-        margin-bottom: 20px;
+    .section-03 .container {
+        max-width: 960px;
     }
 
-    .section-03 .section-content {
-        padding: 0 40px;
+    .section-03 .section-title {
+        margin-bottom: 20px;
     }
 
     .section-03 .background-img {
@@ -1093,7 +1093,7 @@ main {
     }
 
     .section-03 .cards-step-flex > * {
-        max-width: 300px;
+        max-width: 303px;
     }
 }
 
@@ -1287,6 +1287,13 @@ main {
     position: relative;
 }
 
+.marketplace-grid {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr;
+    gap: 10px 8px;
+}
+
 @media (min-width: 992px) {
 
     .section-06 {
@@ -1325,6 +1332,10 @@ main {
         background-position: center;
         background-repeat: no-repeat;
         background-size: auto;
+    }
+
+    .marketplace-grid {
+        grid-template-columns: 1fr 1fr 1fr;
     }
 }
 
@@ -1402,6 +1413,10 @@ main {
 
     .section-07 {
         padding: 60px 15px 97px;
+    }
+
+    .section-07 .container {
+        max-width: 925px;
     }
 
     .section-07 .section-title {
