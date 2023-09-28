@@ -513,9 +513,10 @@ textarea {
 }
 
 .modal-title {
+    display: inline-block;
     font-family: var(--font-title);
     font-size: 48px;
-    line-height: 135%;
+    line-height: 109.1%;
     text-transform: uppercase;
     margin: 0;
 }
@@ -572,7 +573,7 @@ textarea {
 
 /* --------------------- modal-gifts --------------------- */
 
-.modal-gifts .modal-title span {
+.modal-gifts .modal-title {
     padding: 10px;
     border-radius: 5px;
     color: #fff;
@@ -759,7 +760,7 @@ textarea {
     background-size: contain;
 }
 
-.modal-dates .modal-title span {
+.modal-dates .modal-title {
     padding: 10px;
     border-radius: 5px;
     background: #C6F45C;
@@ -789,7 +790,7 @@ textarea {
 
 /* --------------------- modal-thanks --------------------- */
 
-.modal-thanks .modal-title span {
+.modal-thanks .modal-title {
     padding: 10px;
     border-radius: 5px;
     background: #C6F45C;
@@ -1069,7 +1070,7 @@ main {
 }
 
 .section-03 .cards-step-flex > * {
-    max-width: 100%;
+    max-width: 303px;
     width: 100%;
     flex: 1 1 auto;
 }
@@ -1091,10 +1092,6 @@ main {
     .section-03 .background-img {
         top: 40px;
         transform: none;
-    }
-
-    .section-03 .cards-step-flex > * {
-        max-width: 303px;
     }
 }
 
